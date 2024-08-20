@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.5)
+project(Project)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
+
+set(SFML_DIR C:/CppCourseProject/SFML-2.6.1/lib/cmake/SFML)
+find_package(SFML 2.6.1 COMPONENTS graphics REQUIRED) 
+
+
+add_executable(Project 
+    main.cpp
+    SfDraw.hpp
+    Scene.hpp 
+    Scene.cpp
+    algebra.hpp
+    Constants.hpp
+    PhysicalObject.hpp
+    PhysicalObject.cpp
+    Interaction.hpp
+    Interaction.cpp
+    figures.hpp
+    pattern_loop.hpp
+)   
+
+target_link_libraries(Project sfml-graphics)  

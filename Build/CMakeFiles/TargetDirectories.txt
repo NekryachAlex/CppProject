@@ -1,0 +1,3 @@
+C:/GravitySimulation/Build/CMakeFiles/Project.dir
+C:/GravitySimulation/Build/CMakeFiles/edit_cache.dir
+C:/GravitySimulation/Build/CMakeFiles/rebuild_cache.dir
